@@ -1,0 +1,308 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.container h3 {
+  position: relative;
+  left: 50px;
+
+  width: fit-content;
+  font-family: poppins;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.nav-btn {
+  display: flex;
+  float: right;
+  margin-top: -84px;
+  margin-right: 59px;
+  gap: 20px;
+}
+
+.nav-btn a {
+  text-decoration: none;
+  color: #424242;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: poppins;
+}
+
+/* container 2  */
+
+.container-2 h2 {
+  text-align: center;
+  font-family: poppins;
+  font-weight: 700;
+  font-size: 30px;
+  color: #131313;
+}
+
+.container-2 p {
+  text-align: center;
+  font-family: poppins;
+  color: #727272;
+}
+
+.container-2 button {
+  position: relative;
+  left: 620px;
+  margin-bottom: 30px;
+  width: 140px;
+  height: 50px;
+  background-color: #ff900e;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 16px;
+  color: aliceblue;
+}
+
+.container-2 img {
+  display: flex;
+  align-items: center;
+  margin-left: 170px;
+  width: 1000px;
+  height: 450px;
+}
+
+/* container 3 */
+
+/* w-40 */
+
+.w-40 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 200px;
+  margin-top: 80px;
+  margin-left: 170px;
+}
+
+.w-40 img {
+  margin: 5px;
+  width: 250px;
+  border: 1px solid #ff900e;
+  border-radius: 7px;
+}
+
+/* w-60 */
+
+.w-60 {
+  float: right;
+  position: relative;
+  top: -400px;
+  left: -100px;
+}
+
+.w-60 span {
+  font-family: poppins;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.w-60 p {
+  font-family: poppins;
+  color: #727272;
+}
+
+.w-60 button {
+  background-color: #ff900e;
+  border-radius: 5px;
+  height: 50px;
+  width: 120px;
+  font-size: 14px;
+  color: aliceblue;
+  font-weight: 500;
+  font-family: poppins;
+}
+
+/* -----------------------------------
+            container 4 
+--------------------------------------*/
+
+.container-4 {
+  box-sizing: border-box;
+  border: 5px solid black;
+  margin-top: 70px;
+  margin-left: 120px;
+  width: 1100px;
+}
+
+/*------------------------------ 
+  container 4 left side style 
+-------------------------------*/
+
+.container-4 .left-side {
+  border: 5px solid green;
+  width: 500px;
+  float: left;
+}
+
+.container-4 .style {
+  height: 80px;
+  width: 0.5%;
+  background-color: #ff900e;
+  float: left;
+}
+
+.container-4 .style {
+  overflow: hidden;
+}
+
+.container-4 .heading h1 {
+  color: #131313;
+  font-family: poppins;
+  font-size: 28px;
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+.container-4 .heading p {
+  font-family: poppins;
+  font-size: 14px;
+  font-weight: 500;
+  color: #727272;
+}
+
+.container-4 .list .mobile {
+  border: 2px solid red;
+}
+
+.container-4 .list .mobile h4 {
+  margin-bottom: 10px;
+  font-family: poppins;
+  font-weight: 600;
+  font-size: 18px;
+  color: #131313;
+}
+
+.container-4 .list .mobile p {
+  color: #727272;
+  font-size: 14px;
+  font-family: poppins;
+  margin-top: 0;
+}
+
+.container-4 .list .drag {
+  border: 2px solid red;
+}
+
+.container-4 .list .drag h4 {
+  font-family: poppins;
+  font-size: 18px;
+  font-weight: 600;
+  color: #131313;
+}
+
+.container-4 .list .drag p {
+  font-family: poppins;
+  font-size: 14px;
+  color: #727272;
+}
+
+.container-4 .list .modern-design h4 {
+  font-family: poppins;
+  font-size: 18px;
+  font-weight: 600;
+  color: #131313;
+}
+
+.container-4 .list .modern-design p {
+  font-family: poppins;
+  font-size: 14px;
+  color: #727272;
+}
+
+.container-4 .list .super-easy h4 {
+  font-family: poppins;
+  font-size: 18px;
+  font-weight: 600;
+  color: #131313;
+}
+
+.container-4 .list .super-easy p {
+  font-family: poppins;
+  font-size: 14px;
+  color: #727272;
+}
+
+/*----------------------------------- 
+   container 4 left side style end 
+-----------------------------------*/
+
+/*--------------------------------- 
+container 4 right side start 
+---------------------------------*/
+
+.container-4 .right-side img {
+  width: 500px;
+  height: 700px;
+  margin-top: -128px;
+  margin-left: 80px;
+}
+
+.container-4 .right-side .exp {
+  position: relative;
+  left: 530px;
+  top: -40px;
+  border-radius: 5px;
+  background-color: #ff900e;
+  width: 200px;
+  height: 110px;
+}
+
+.container-4 .right-side .exp h3 {
+  text-align: center;
+  font-family: poppins;
+  color: aliceblue;
+  font-size: 30px;
+  margin-top: -30px;
+  margin-bottom: 0%;
+}
+
+.container-4 .right-side .exp p {
+  text-align: center;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  color: aliceblue;
+  font-family: poppins;
+}
+
+/*--------------------------------- 
+container 5
+----------------------------------- */
+
+.container-5 {
+  border: 3px solid red;
+  margin-left: 120px;
+  width: 600px;
+}
+
+.container-5 h3 {
+  font-family: poppins;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.container-5 p {
+  font-family: poppins;
+  font-size: 14px;
+  color: #727272;
+}
+
+/*-------------------------------------
+ container 6
+--------------------------------------- */
+
+.container-6 {
+  margin-left: 120px;
+  width: 1100px;
+  height: 210px;
+  border: 3px solid violet;
+}
+
+.container-6 .child {
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
+}
